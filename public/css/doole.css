@@ -1,0 +1,108 @@
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    background-color: #109db0;
+}
+
+.cover-container {
+    max-width: 50em;
+}
+
+.cover-container-lists {
+    max-width: 60em;
+}
+.content{
+    max-width: 60em;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+    font-size: 20px;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.btn-space {
+    margin-right: 70px;
+}
+
+.label-form {
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+.beautiful-button{
+    height:50px;
+    width:250px;
+    text-align: center;
+    vertical-align:middle;
+}
+.h1, h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/**
+ * Tables
+ */
+
+.td-doole{
+    border-color: #bfd1ec;
+    border-bottom:1px solid white;
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    font-size: 1rem;
+}
+
+.table-title{
+    background-color: #bfd1ec;
+    font-size: 1.5rem;
+}
+
+
+/**
+ * Details
+ */
+
+.details{
+    width:10px;
+    height:10px;
+}
+
+.table-doole{
+    align-content: center;
+    margin: 0 auto;
+}
